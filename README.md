@@ -44,11 +44,3 @@ Here is the sequential roadmap of the Labs i attended in Sem 4:
 
 ---
 
-## Bugs I Fixed to Make the Code Stable
-
-While cleaning these classroom files, I resolved several bugs to make them fully reproducible:
-*   **Fixed absolute directory paths** (pointing to local Downloads folders) with local relative references so the scripts run anywhere.
-*   **Replaced blocking popups** (like raw `file.choose()` commands) with direct relative CSV loaders.
-*   **Corrected array accumulation loops** (where R's built-in transpose function `t` was accidentally appended instead of a vector).
-*   **Fixed subsetting slice indices** by adding missing matrix commas `[,]` that crashed row-filtering.
-*   **Resolved missing package declarations** (specifically for `reshape2`) and replaced invalid built-in `load()` functions with standard `data()`.
