@@ -1,4 +1,4 @@
-#  Hi there! Welcome to my R Data Science Portfolio
+#  Heya!! Welcome to my R-Data Science Portfolio
 
 This repository is my personal collection of **12 R Lab scripts** from my Data Science class. I have cleaned, debugged, and organized them sequentially from the absolute basics of arithmetic to more complex predictive machine learning models. 
 
