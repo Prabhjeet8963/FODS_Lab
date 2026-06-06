@@ -22,6 +22,17 @@ Here is the sequential roadmap of the Labs i attended in Sem 4:
 *   **`10_Hypothesis_Testing_mtcars.R`**: Conducting statistical tests (one/two-sample independent Welch's t-tests, Chi-squared, and Fisher's).
 *   **`11_Grocery_Basket_Analysis.R`**: Visualizing transaction sales volume, product frequencies, and peak purchase days in **Groceries** log.
 *   **`12_Predictive_Modeling_Forests.R`**: Training Random Forest Classification on the `iris` dataset and Random Forest Regression on `mtcars`.
+---
+
+## Python Project: Google Stock Price Predictor (MLOps & Streamlit)
+
+Located in the `Google_Stock_Predictor/` subdirectory, this is a Streamlit application that predicts Google stock trends using live Yahoo Finance feeds, logs predictions to a SQLite database, and automatically validates its own accuracy against real-world closing prices.
+
+### Project Files
+*   **`app.py`**: Main dashboard interface, SQLite prediction logger, and outcome validator.
+*   **`train.py`**: Offline pipeline to compare models, train, and export artifacts.
+*   **`preprocessing.py` & `data_loader.py`**: Feature engineering (SMA/EMA) and CSV loaders.
+*   **`models.py` & `evaluation.py`**: ML algorithm configurations and evaluation diagnostics.
 
 ### Attached CSV Datasets
 *   **`diabetes.csv`**: Demographics and clinical metrics for 403 subjects.
