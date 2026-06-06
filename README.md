@@ -1,14 +1,12 @@
-#  Heya!! Welcome to my R-Data Science Portfolio
+#  Heya!! Welcome to my R-Data Science Repo!!
 
-This repository is my personal collection of **12 R Lab scripts** from my Data Science class. I have cleaned, debugged, and organized them sequentially from the absolute basics of arithmetic to more complex predictive machine learning models. 
-
-Each script is fully self-contained, completely documented, and configured with relative dataset paths so it runs out-of-the-box on any computer.
+This repository is my personal collection of 12 R Lab scripts from my Data Science class. I have cleaned, debugged, and organized them sequentially from the absolute basics of arithmetic to more complex predictive machine learning models. 
+Each script is fully self-contained, completely documented, and configured with relative dataset paths so it runs out-of-the-box on any laptop!
 
 ---
 
-## What's Inside this Repo?
-
-Here is the sequential roadmap of the Labs i attended in Sem 4:
+## What's in this Repo?
+ --> A sequential roadmap of the Labs i attended in Sem 4:
 
 *   **`01_Arithmetic_Basics.R`**: Vector creation, basic statistical functions, and exploring the built-in `mtcars` dataset.
 *   **`02_Control_Flow_Loops.R`**: Loop structures (`for`, `while`, `repeat`) and handling conditional flow statements.
@@ -41,7 +39,7 @@ Located in the `Google_Stock_Predictor/` subdirectory, this is a Streamlit appli
 
 ---
 
-## How to Run the Scripts
+## How to Run these Scripts
 
 1.  Set your working directory in your R console to this folder:
     ```R
