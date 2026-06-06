@@ -10,9 +10,7 @@ import shap
 import sqlite3
 import numpy as np
 
-# ================================
-# DESIGN SYSTEM & CUSTOM CSS
-# ================================
+#css
 st.set_page_config(page_title="Google Stock Predictor MLOps", layout="wide")
 
 # Custom premium styling (Glassmorphism & Sleek Dark Mode)
@@ -267,10 +265,7 @@ y_val_cls = model_data['y_val_cls']
 X_test = model_data['X_test']
 y_test_reg = model_data['y_test_reg']
 historical_df = model_data['historical_df']
-
-# ================================
 # STREAMLIT GUI TABS
-# ================================
 tab1, tab2, tab3, tab4 = st.tabs([
     "🔴 Real-Time Predictor", 
     "📈 Real-World MLOps Dashboard",
@@ -278,9 +273,8 @@ tab1, tab2, tab3, tab4 = st.tabs([
     "📉 Historical Trends"
 ])
 
-# -----------------
 # TAB 1: Real-Time Predictor
-# -----------------
+
 with tab1:
     st.markdown('<div class="glass-card"><h3>Live Stock Prediction Panel</h3>'
                 '<p>Fetch real-time metrics for Google Stock (GOOGL) via Yahoo Finance, scale indicators, and run model inference instantly.</p></div>', unsafe_allow_html=True)
@@ -394,9 +388,9 @@ with tab1:
     else:
         st.error("Failed to fetch live data from Yahoo Finance.")
 
-# -----------------
+
 # TAB 2: Real-World MLOps Dashboard
-# -----------------
+
 with tab2:
     st.markdown('<div class="glass-card"><h3>Live Production Performance Tracker</h3>'
                 '<p>This panel shows the production track record of your model. It queries the local SQLite log, automatically pulls historical outcomes when target dates finish, and computes actual real-world accuracy.</p></div>', unsafe_allow_html=True)
@@ -527,9 +521,9 @@ with tab2:
         
         st.dataframe(display_df, use_container_width=True)
 
-# -----------------
+
 # TAB 3: Model Diagnostics
-# -----------------
+
 with tab3:
     st.header("Offline Trained Metrics & Comparisons")
     st.write("These metrics represent performance measured on historical validation datasets during offline model training.")
@@ -683,9 +677,8 @@ with tab3:
         except Exception as e:
             st.warning(f"SHAP diagnostics could not be run for {best_cls_name}. Reason: {e}")
 
-# -----------------
 # TAB 4: Historical Trends
-# -----------------
+
 with tab4:
     st.header("Historical Close Price & Dataset Reference")
     st.write("This represents the raw historical CSV dataset (`googl_daily_prices.csv`) with rolling technical indicators.")
