@@ -20,6 +20,13 @@ Each script is fully self-contained, completely documented, and configured with 
 *   **`10_Hypothesis_Testing_mtcars.R`**: Conducting statistical tests (one/two-sample independent Welch's t-tests, Chi-squared, and Fisher's).
 *   **`11_Grocery_Basket_Analysis.R`**: Visualizing transaction sales volume, product frequencies, and peak purchase days in **Groceries** log.
 *   **`12_Predictive_Modeling_Forests.R`**: Training Random Forest Classification on the `iris` dataset and Random Forest Regression on `mtcars`.
+
+## Semester Project: Computer Pricing Analysis
+
+As part of the semester project, I performed exploratory data analysis on a dataset of 6,259 personal computers using R. The project involved descriptive statistics, data visualization, and correlation analysis to understand how hardware specifications such as processor speed, RAM, and storage influenced computer pricing.
+
+**Files:** `Project_Report.pdf`, `Project_ProblemStatement.pdf`, `Computer_Data.csv`
+
 ---
 
 ## Python Project: Google Stock Price Predictor (MLOps & Streamlit)
